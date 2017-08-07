@@ -1,0 +1,37 @@
+[Reference links]
+https://www.inside.com.tw/2016/08/02/connecting-to-amazon-web-services-aws-iot-using-mqtt
+
+新增新裝置
+$ aws iot create-thing --thing-name "edison1"
+
+使用 create-thing 指令如下，以新增新裝置：
+螢幕截圖 2016-08-02 19.28.45 您應得到以下輸出：
+
+
+取得裝置列表
+$ aws iot list-things
+使用 list-things 指令如下，已取得裝置列表：
+螢幕截圖 2016-08-02 19.31.23 您應得到以下輸出：
+
+
+http://www.instructables.com/id/Arduino-Using-AWS-IoT-Serivce/
+
+
+To configure and test the device, perform the following steps.
+
+Step 1: Unzip the connection kit on the device
+unzip connect_device_package.zip
+Step 2: Add execution permissions
+chmod +x start.sh
+Step 3: Run the start script. Messages from your thing will appear below
+./start.sh
+Waiting for messages from your device
+
+* At this moment, you can send some messages from the AWS-Iot web page to the local computer
+
+
+[Youtube Video]
+https://www.youtube.com/watch?v=WJuXv5usXcY
+
+The example program:
+https://github.com/CheapskateProjects/ESP8266AWSIoTDemo
