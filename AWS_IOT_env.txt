@@ -33,5 +33,21 @@ Waiting for messages from your device
 [Youtube Video]
 https://www.youtube.com/watch?v=WJuXv5usXcY
 
+STEP1:
+To the AWS IOT web site and then register a thing
+
+STEP2:
+To copy "" and then paste the AWSDomain in the interact page HTTPS
+To copy the name of thing and then paste into AWSpath
+
+STEP3:
+To copy Thing ARN for IAM
+To create a IAM in order to obtain "AWSKeyID" and "AWSSecretKey"
+AWSKeyID:
+AWSSecretKey:
+
+STEP4:
+
+
 The example program:
 https://github.com/CheapskateProjects/ESP8266AWSIoTDemo
